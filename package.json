@@ -1,0 +1,33 @@
+{
+  "name": "zadanie_9_2",
+  "version": "1.0.0",
+  "description": "Kodilla Bootcamp https://marcinbb.github.io/zadanie_9_2/",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm-run-all test:*",
+    "test:js": "jshint js/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcinBB/zadanie_9_2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcinBB/zadanie_9_2"
+  },
+  "homepage": "https://github.com/MarcinBB/zadanie_9_2#readme",
+  "dependencies": {
+    "browser-sync": "^2.23.6"
+  },
+  "devDependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "jshint": "^2.9.5",
+    "node-sass": "^4.7.2",
+    "npm-run-all": "^4.1.2",
+    "nu-html-checker": "^0.1.0",
+    "onchange": "^3.3.0",
+    "rimraf": "^2.6.2"
+  }
+}
