@@ -4,8 +4,4 @@ var allNames = femaleNames.concat(maleNames);
 var newName = "Marian";
 if (allNames.indexOf(newName) === -1) {
     allNames.push(newName)
-    }
-if (allNames.includes(allNames + newName) === -1) 
-    {
-	allNames.push(newName)
-    }
+};
